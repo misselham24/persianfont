@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سوالات متداول</title>
+
+  <!-- بوت استرپ CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- استایل اختصاصی FAQ -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-light">
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-column p-0">
+  <div class="container d-flex justify-content-between align-items-center py-2">
+    
+    <!-- Logo -->
+    <a class="site-name navbar-brand d-flex align-items-center mb-0" href="index.html">
+      <img src="img/icon.svg" alt="icon" width="70" class="me-2">
+      <h1 style="padding-right: 20px;">پرشین فونت</h1>
+    </a>
+
+    <!-- دکمه همبرگر فقط در موبایل -->
+    <button class="navbar-toggler d-lg-none mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- دکمه‌ها و فرم جستجو -->
+    <div class="d-flex align-items-center gap-3">
+      <form class="d-flex align-items-center gap-2" role="search">
+        <input class="form-control form-control-sm" type="search" placeholder="جستجو فونت..." aria-label="Search">
+        <button class="btn btn-outline-light btn-sm" type="submit">🔍</button>
+      </form>
+
+      <a href="user-panel.html" class="btn btn-outline-light btn-sm">👤</a>
+      <a href="shop cart.html" class="btn btn-outline-light btn-sm">🛒</a>
+      <a href="login.html" class="btn btn-light btn-sm">ورود</a>
+      <a href="signin.html" class="btn btn-primary btn-sm">ثبت‌نام</a>
+    </div>
+  </div>
+
+  <!-- خط جداکننده تمام عرض -->
+  <div style="background-color: #373e44; width: 100%;">
+    <hr class="header-line">
+  </div>
+
+  <!-- منو (زیر هدر) -->
+  <div style="background-color: #212529;">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="mainNav">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-lg-flex justify-content-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">خانه</a></li>
+          <li class="nav-item"><a class="nav-link" href="ai.html">AI</a></li>
+          <li class="nav-item"><a class="nav-link" href="product-archive.html">فونت ها</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">وبلاگ</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">درباره ما</a></li>
+          <li class="nav-item"><a class="nav-link" href="conect.html">تماس با ما</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<button id="themeToggle" class="btn btn-sm btn-light ms-2" title="تغییر حالت">
+  🌙
+</button>
+
+
+  <!-- بخش سوالات متداول -->
+  <main class="container my-5">
+    <h1 class="mb-4 fw-bold text-primary text-center">سوالات متداول</h1>
+
+    <div class="accordion" id="faqAccordion" role="tablist" aria-multiselectable="true">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1"
+            aria-label="باز و بسته کردن سوال ۱">
+            <span>چگونه می‌توانم حساب کاربری بسازم؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>برای ساخت حساب کاربری، ابتدا روی دکمه «ثبت نام» در صفحه اصلی کلیک کنید.</p>
+            <p>فرم ثبت نام را با اطلاعات دقیق و معتبر پر کنید.</p>
+            <p>پس از ارسال فرم، ایمیل تاییدی دریافت خواهید کرد که باید روی آن کلیک کنید تا حساب فعال شود.</p>
+            <p>در صورت بروز هرگونه مشکل، با پشتیبانی تماس بگیرید.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2"
+            aria-label="باز و بسته کردن سوال ۲">
+            <span>چگونه رمز عبور خود را تغییر دهم؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>وارد حساب کاربری شوید.</p>
+            <p>به بخش «تنظیمات» یا «پروفایل» مراجعه کنید.</p>
+            <p>گزینه «تغییر رمز عبور» را انتخاب و رمز جدید را وارد کنید.</p>
+            <p>رمز عبور باید حداقل ۸ کاراکتر، شامل حرف بزرگ، حرف کوچک و عدد باشد.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq3-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3"
+            aria-label="باز و بسته کردن سوال ۳">
+            <span>آیا امکان بازگشت وجه وجود دارد؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>بله، در شرایط خاص بازگشت وجه امکان‌پذیر است.</p>
+            <p>لطفا قوانین بازگشت وجه را در صفحه شرایط و ضوابط مطالعه کنید.</p>
+            <p>درخواست خود را از طریق پشتیبانی ارسال کنید.</p>
+            <p>معمولا بازگشت وجه تا ۷ روز کاری انجام می‌شود.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq4-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4"
+            aria-label="باز و بسته کردن سوال ۴">
+            <span>روش‌های پرداخت موجود چیست؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <ul>
+              <li>کارت‌های بانکی داخلی و بین‌المللی (ویزا، مسترکارت)</li>
+              <li>پرداخت آنلاین از طریق درگاه‌های معتبر</li>
+              <li>کیف پول الکترونیکی</li>
+              <li>پرداخت نقدی در محل (در برخی مناطق)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq5-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5"
+            aria-label="باز و بسته کردن سوال ۵">
+            <span>چگونه می‌توانم پشتیبانی دریافت کنم؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>می‌توانید از طریق فرم تماس با ما، ایمیل، یا شماره تلفن‌های موجود در سایت با تیم پشتیبانی تماس بگیرید.</p>
+            <p>همچنین امکان گفتگو آنلاین در ساعات کاری فعال است.</p>
+            <p>تیم پشتیبانی ما ۲۴ ساعته پاسخگوی سوالات شماست.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq6-header">
+          <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button"
+            data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6"
+            aria-label="باز و بسته کردن سوال ۶">
+            <span>آیا امکان استفاده رایگان از فونت‌ها وجود دارد؟</span>
+            <span class="icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0d6efd" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="24" height="24">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </span>
+          </button>
+        </h2>
+        <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-header" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>بعضی فونت‌ها به صورت رایگان قابل استفاده هستند و برخی نیاز به خرید دارند.</p>
+            <p>برای مشاهده فونت‌های رایگان به بخش «رایگان‌ها» مراجعه کنید.</p>
+            <p>لطفا شرایط استفاده هر فونت را مطالعه کنید.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+<!-- فوتر -->
+<footer class="pt-5 pb-4 text-white" style="background-color: #343a40; font-family: 'Vazirmatn', sans-serif;" dir="rtl">
+  <div class="container text-md-right text-center">
+    <div class="row">
+
+      <!-- درباره ما -->
+      <div class="col-md-3 mb-4">
+        <img src="img/icon.svg">
+        <br> <br>
+        <p>پرشین فونت مرجع تخصصی فروش فونت‌های فارسی و انگلیسی با مجوز قانونی و پشتیبانی اختصاصی است.</p>
+      </div>
+
+      <!-- دسترسی سریع -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">لینک‌های سریع</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white-50 text-decoration-none">صفحه اصلی</a></li>
+          <li><a href="product-archive.html" class="text-white-50 text-decoration-none">خرید فونت</a></li>
+          <li><a href="ai.html" class="text-white-50 text-decoration-none"> چت با هوش مصنوعی </a></li>
+          <li><a href="qustion.html" class="text-white-50 text-decoration-none">سوالات متداول</a></li>
+          <li><a href="conect.html" class="text-white-50 text-decoration-none">تماس با ما</a></li>
+<li><a href="about.html" class="text-white-50 text-decoration-none">درباره ما</a></li>
+<li><a href="policy.html" class="text-white-50 text-decoration-none">حریم خصوصی</a></li>
+<li><a href="rule.html" class="text-white-50 text-decoration-none">قوانین و مقررات</a></li>
+        </ul>
+      </div>
+
+      <!-- عضویت در خبرنامه -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">عضویت در خبرنامه</h5>
+        <p class="text-white-50">برای دریافت جدیدترین فونت‌ها و تخفیف‌ها ایمیل خود را وارد کنید:</p>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control bg-white text-white border-0"  style="text-align: right;" placeholder="ایمیل شما" required>
+            <button class="btn btn-primary" type="submit">ارسال</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- شبکه‌های اجتماعی و نمادها -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">ما را در شبکه های اجتماعی کنید</h5>
+        <div class="mb-3">
+<a href="https://instagram.com/yourpage" class="text-white fs-4 me-2"><i class="bi bi-instagram"></i></a>
+<a href="https://t.me/yourchannel" class="text-white fs-4 me-2"><i class="bi bi-telegram"></i></a>
+<a href="https://t.me/yourchannel" class="text-white fs-4 me-2"><i class="bi bi-youtube"></i></a>
+
+        </div>
+        <div>
+          <img src="img/etemad.png" alt="ای‌نماد" style="width: 80px;" class="me-2 bg-white">
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+
+    <div class="text-center text-white-50 mt-3">
+      © 2025 PersianFont.ir - تمامی حقوق محفوظ است | طراحی توسط تیم دانشجویان دانشگاه ملی مهارت قم
+    </div>
+  </div>
+</footer>
+  <!-- بوت استرپ JS و پاپر -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<!-- اسکریپت تغییر تم -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
